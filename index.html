@@ -9,34 +9,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <style>
         .roboto {
             font-family: Roboto;
         }
+
         .bebas {
             font-family: Bebas Neue;
         }
     </style>
 </head>
 
-<body class="max-w-[1440px] mx-auto">
-    <header class="bg-[#FFFBF0] border-2 border-l-orange-950">
+<body class="max-w-screen-2xl mx-auto roboto">
+    <header class="bg-[#FFFBF0]">
+        <!-- Navbar -->
         <nav class="flex justify-between lg:items-center items-start lg:w-4/5 w-11/12 mx-auto pt-10 mb-3">
             <div class="lg:max-w-[290px] max-w-48">
-                <img src="icons/logo.png" alt="">
+                <img src="icons/logo.png" alt="" class="cursor-pointer">
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:hidden size-8">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="lg:hidden size-8 cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
             </svg>
             <ul class="hidden lg:flex gap-[57px] font-medium roboto text-[#3C3C3C]">
-                <li><a href="index.html" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out"> Home </a> </li>
-                <li><a href="index.html" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out"> Product </a> </li>
-                <li><a href="index.html" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out">About us</a></li>
-                <li><a href="index.html" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out">Contact us</a></li>
+                <li><a href="" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out"> Home
+                    </a> </li>
+                <li><a href="" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out">
+                        Product </a> </li>
+                <li><a href="" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out">About
+                        us</a></li>
+                <li><a href=""
+                        class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out">Contact
+                        us</a></li>
             </ul>
         </nav>
+        <!-- Banner Section -->
+        <section class="mt-12 w-11/12 mx-auto lg:w-4/5 mx-auto lg:flex lg:justify-between lg:items-center lg:mt-8">
+            <div>
+                <h1 class="bebas text-[#FABE4C] text-6xl font-normal"> Be The Penguins <br> <span class="text-[#363958]"> Of
+                    Winter </span></h1>
+                <p class="roboto text-[#3E3E3E] w-4/5 my-6"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <button class="flex uppercase px-8 py-4 text-white bg-gradient-to-b from-[#A4BC46] to-[#85A019] gap-2 rounded-[10px] mb-12">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+                Buy Now
+                </button>
+            </div>
+            <div class="pb-11 lg:pb-16">
+                <img src="images/model.png" alt="" class="w-11/12 mx-auto lg:max-w-full">
+            </div>
+        </section>
     </header>
     <main></main>
     <footer></footer>
