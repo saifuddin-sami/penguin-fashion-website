@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <style>
+        .roboto {
+            font-family: Roboto;
+        }
+        .bebas {
+            font-family: Bebas Neue;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <nav>
-            <h1> Penguin <span> Fashion </span> </h1>
+
+<body class="max-w-[1440px] mx-auto">
+    <header class="bg-[#FFFBF0] border-2 border-l-orange-950">
+        <nav class="flex justify-between lg:items-center items-start lg:w-4/5 w-11/12 mx-auto pt-10 mb-3">
+            <div class="lg:max-w-[290px] max-w-48">
+                <img src="icons/logo.png" alt="">
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:hidden size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            </svg>
+            <ul class="hidden lg:flex gap-[57px] font-medium roboto text-[#3C3C3C]">
+                <li><a href="index.html" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out"> Home </a> </li>
+                <li><a href="index.html" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out"> Product </a> </li>
+                <li><a href="index.html" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out">About us</a></li>
+                <li><a href="index.html" class="hover:bg-[#a4bc46] hover:text-white p-2 rounded-md duration-300 ease-in-out">Contact us</a></li>
+            </ul>
         </nav>
     </header>
     <main></main>
     <footer></footer>
 </body>
+
 </html>
